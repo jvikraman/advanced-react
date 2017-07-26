@@ -19,7 +19,7 @@ module.exports = {
   rules: {
     'react/prop-types': ['off'],
     //indent: ['error', 4, { SwitchCase: 1 }],
-    'linebreak-style': ['error', 'windows'],
+    //'linebreak-style': ['error', 'windows'],
     quotes: ['error', 'single'],
     semi: ['error', 'always'],
     'no-console': ['warn', { allow: ['info', 'error'] }],
