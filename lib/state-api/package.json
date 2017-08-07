@@ -1,0 +1,9 @@
+{
+  "name": "state-api",
+  "version": "1.0.0",
+  "description": "State API",
+  "main": "lib/index.js",
+  "repository": "jvikraman/state-api",
+  "author": "jvikraman <jvikraman@outlook.com>",
+  "license": "MIT"
+}

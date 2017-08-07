@@ -4,7 +4,7 @@
   "description": "Advanced React",
   "main": "lib/server.js",
   "scripts": {
-    "start": "nodemon --exec babel-node lib/server.js",
+    "start": "cross-env NODE_PATH=./lib nodemon --exec babel-node lib/server.js",
     "test": "jest --watch",
     "webpack": "webpack -wd"
   },
@@ -27,6 +27,7 @@
     "react-test-renderer": "^15.6.1"
   },
   "dependencies": {
+    "axios": "^0.16.2",
     "babel-cli": "^6.24.1",
     "babel-loader": "^7.1.1",
     "babel-polyfill": "^6.23.0",
