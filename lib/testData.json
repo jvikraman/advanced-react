@@ -11,7 +11,7 @@
       {
         "id": "cc7781c085cf37aabf120098085ff60c",
         "title": "Mixins Considered Harmful",
-        "date": "Wed Jul 13 2016 00:00:00 GMT+0000 (UTC)",
+        "date": "Wed Jul 13 2016 00:00:00 GMT+0000 (UTC)",        
         "authorId": "78ae672985c41fae0ecde0133f41bbfa",
         "body": "“How do I share the code between several components?” is one of the first questions that people ask when they learn React. Our answer has always been to use component composition for code reuse. You can define a component and use it in several other components. \nIt is not always obvious how a certain pattern can be solved with composition. React is influenced by functional programming but it came into the field that was dominated by object-oriented libraries. It was hard for engineers both inside and outside of Facebook to give up on the patterns they were used to."
       },
